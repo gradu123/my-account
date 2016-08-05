@@ -1,0 +1,5 @@
+default: -r features --color --format pretty --format json -o reports/report<%= ENV['TEST_ENV_NUMBER'] %>.json
+ci: -r features DISPLAY=:99.0 HEADLESS=true TRAVIS=true --tags ~@wip --format progress --format html -o reports/results.html --format junit -o junit
+firefox : -r features FIREFOX=TRUE --color --format pretty --format html -o reports/firefox.html
+ie : -r features IE=TRUE --color --format pretty --format html -o reports/ie.html
+chrome : -r features CHROME=TRUE --color --format pretty --format html -o reports/chrome.html
