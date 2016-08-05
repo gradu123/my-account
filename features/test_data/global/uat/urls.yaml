@@ -1,0 +1,17 @@
+:products:
+  :online_subscription_url: http://www.akamai8.awspreprod.telegraph.co.uk/subscriptions/
+  :buy_online_subscription_url: https://secure8.telegraph.co.uk/secure/payment
+  :payment_confirmation_url: https://secure8.telegraph.co.uk/secure/payment/confirmation/
+:zuora:
+  :zuora_login: https://apisandbox.zuora.com/apps/newlogin.do
+:my_account:
+  :login_page: https://secure8.telegraph.co.uk/secure/login/
+  :home_page: https://secure8.telegraph.co.uk/secure/account/
+  :old_home_page: https://auth-uat.telegraph.co.uk/customer-portal/myaccount/index
+  :forgot_pass_page: https://auth-uat.telegraph.co.uk/sam-ui/forgotpassword.htm
+  :reset_url: https://auth-uat.telegraph.co.uk/sam-ui/resetpassword.htm
+  :registration_url: https://auth-uat.telegraph.co.uk/sam-ui/register.htm?logintype=tmg
+:salesforce:
+  :login_page: https://cs81.salesforce.com/
+  :sf_home_url: https://cs81.salesforce.com/home/home.jsp
+  :pref_account: https://cs81.salesforce.com/001m000000XFXZc
